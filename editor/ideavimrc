@@ -1,0 +1,48 @@
+let mapleader = "\<Space>"
+
+imap jj <Esc>
+
+imap <S-D-r> <Action>(SelectInProjectView)
+nmap <S-D-r> <Action>(SelectInProjectView)
+nmap <S-h> <Action>(PreviousTab)
+nmap <S-l> <Action>(NextTab)
+nmap <C-h> <Action>(PrevSplitter)
+nmap <C-l> <Action>(NextSplitter)
+nmap <Leader><Space> <Action>(SearchEverywhere)
+nmap <Leader>b1 <Action>(GoToTab1)
+nmap <Leader>b2 <Action>(GoToTab2)
+nmap <Leader>b3 <Action>(GoToTab3)
+nmap <Leader>b4 <Action>(GoToTab4)
+nmap <Leader>b5 <Action>(GoToTab5)
+nmap <Leader>b6 <Action>(GoToTab6)
+nmap <Leader>b7 <Action>(GoToTab7)
+nmap <Leader>b8 <Action>(GoToTab8)
+nmap <Leader>b9 <Action>(GoToTab9)
+nmap <Leader>bd <Action>(CloseContent)
+nmap <Leader>cr <Action>(RunClass)
+nmap <Leader>cd <Action>(Debug)
+
+imap <A-k> <Up>
+imap <A-j> <Down>
+imap <A-h> <Left>
+imap <A-l> <Right>
+
+imap <A-g> <Action>(EditorLineStart)
+nmap <A-g> <Action>(EditorLineStart)
+imap <A-;> <Action>(EditorLineEnd)
+nmap <A-;> <Action>(EditorLineEnd)
+imap <A-i> <Action>(EditorPreviousWordInDifferentHumpsMode)
+nmap <A-i> <Action>(EditorPreviousWordInDifferentHumpsMode)
+imap <A-o> <Action>(EditorNextWordInDifferentHumpsMode)
+nmap <A-o> <Action>(EditorNextWordInDifferentHumpsMode)
+
+nmap s <Action>(flash.search)
+xmap s <Action>(flash.search)
+nmap f <Action>(flash.find)
+xmap f <Action>(flash.find)
+nmap F <Action>(flash.find_backward)
+xmap F <Action>(flash.find_backward)
+nmap ; <Action>(flash.repeat)
+xmap ; <Action>(flash.repeat)
+nmap , <Action>(flash.repeat_backward)
+xmap , <Action>(flash.repeat_backward)
