@@ -1,6 +1,7 @@
 let mapleader = "\<Space>"
 
 imap jj <Esc>
+nmap gh <Action>(ShowHoverInfo)
 
 imap <S-D-r> <Action>(SelectInProjectView)
 nmap <S-D-r> <Action>(SelectInProjectView)
@@ -9,6 +10,8 @@ nmap <S-l> <Action>(NextTab)
 nmap <C-h> <Action>(PrevSplitter)
 nmap <C-l> <Action>(NextSplitter)
 nmap <Leader><Space> <Action>(SearchEverywhere)
+nmap <Leader>nc <Action>(ClearAllNotifications)
+nmap <Leader>e <Action>(ActivateProjectToolWindow)
 nmap <Leader>b1 <Action>(GoToTab1)
 nmap <Leader>b2 <Action>(GoToTab2)
 nmap <Leader>b3 <Action>(GoToTab3)
@@ -19,8 +22,9 @@ nmap <Leader>b7 <Action>(GoToTab7)
 nmap <Leader>b8 <Action>(GoToTab8)
 nmap <Leader>b9 <Action>(GoToTab9)
 nmap <Leader>bd <Action>(CloseContent)
-nmap <Leader>cr <Action>(RunClass)
 nmap <Leader>cd <Action>(Debug)
+nmap <Leader>cf <Action>(ReformatCode)
+nmap <Leader>cr <Action>(RunClass)
 
 imap <A-k> <Up>
 imap <A-j> <Down>
